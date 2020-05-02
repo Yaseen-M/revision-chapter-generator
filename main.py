@@ -48,15 +48,36 @@ def physics_chapters():
   return chapters
 
 def pick_chapter(chapters):
+  # Gets random key from dictionary of chapters
   main_chapter = random.choice(list(chapters))
-  sub_chapter = chapters[main_chapter]
+  # Gets the sub-chapter from the key
+  sub_chapter = random.randint(1, chapters[main_chapter])
   return main_chapter, sub_chapter
+
+def display_chapter(chapters, subject):
+  title = ''
+  chapter = chapters[subject][0]
+  sub_chapter = chapters[subject][1]
+  # Changes title according to the subject
+  if subject == 'comp sci':
+    title = 'Computer science'
+  elif subject == 'physics':
+    title = 'Physics'
+  else:
+    print('Something has gone terribly wrong...')
+  # Outputs the respective chapters
+  print(title)
+  print('Chapter: {}'.format(chapter))
+  print('Sub-chapter: {}\n'.format(sub_chapter))
 
 def main():
   picked_chapters = {
+    # Picks random chapter and sub-chapter for comp sci and physics
     'comp sci': pick_chapter(comp_sci_chapters()),
     'physics': pick_chapter(physics_chapters())
   }
-  print(picked_chapters)
+  # Outputs chapters
+  display_chapter(picked_chapters, 'comp sci')
+  display_chapter(picked_chapters, 'physics')
 
 main()
