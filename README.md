@@ -10,4 +10,8 @@ This helps me to ensure I cover the whole breadth of the course over time and pr
 - Copy the Python code from ```main.py``` into the code space in Repl.it.
 - Hit run!
 
+## Useful links
+- [OCR A Level Computer Science specification](https://www.ocr.org.uk/Images/170844-specification-accredited-a-level-gce-computer-science-h446.pdf)
+- [Kerboodle](https://www.kerboodle.com/app)
+
 _Note: Only the chapters I have studied in school have a chance of being generated._
