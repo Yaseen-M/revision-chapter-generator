@@ -63,8 +63,6 @@ def display_chapter(chapters, subject):
     title = 'Computer science'
   elif subject == 'physics':
     title = 'Physics'
-  else:
-    print('Something has gone terribly wrong...')
   # Outputs the respective chapters
   print(title)
   print('Chapter: {}'.format(chapter))
