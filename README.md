@@ -6,7 +6,7 @@ This helps me to ensure I cover the whole breadth of the course over time and pr
 
 ## Instructions to run
 - Open [Repl.it](https://repl.it/languages/python3).
-- Open [main.py](/main.py).
+- Open [main.py](https://raw.githubusercontent.com/Yaseen-M/revision-chapter-generator/master/main.py).
 - Copy the Python code from ```main.py``` into the code space in Repl.it.
 - Hit run!
 
